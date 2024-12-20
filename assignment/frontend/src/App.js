@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 function App() {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const [message, setMessage] = useState(''); // State for message display
+  const [username, setUsername] = useState('Ajaykumar-R');
+  const [password, setPassword] = useState('8825');
+  const [message, setMessage] = useState('CREATED THE USER ACCOUNT'); // State for message display
 
   const handleSubmit = async (action) => {
     try {
